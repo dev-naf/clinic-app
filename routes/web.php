@@ -24,3 +24,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/category', function () {
+    return view('category');
+});
