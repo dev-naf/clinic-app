@@ -14,8 +14,7 @@
             {{-- Data Barang Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/barang">
-                    <i class="bi bi-menu-button-wide"></i><span>Data Barang</span><i
-                        class="bi bi-chevron-down ms-auto"></i>
+                    <i class="bi bi-menu-button-wide"></i><span>Data Barang</span>
                 </a>
             </li>
             <li>
@@ -25,21 +24,19 @@
             {{-- Data Pasien Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/datapasien">
-                    <i class="bi bi-journal-text"></i><span>Data Pasien</span><i class="bi bi-chevron-down ms-auto"></i>
+                    <i class="bi bi-journal-text"></i><span>Data Pasien</span>
                 </a>
             </li>
             {{-- Diagnosis Pasien Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/periksapasien">
-                    <i class="bi bi-journal-text"></i><span>Pemeriksaan Pasien</span><i
-                        class="bi bi-chevron-down ms-auto"></i>
+                    <i class="bi bi-journal-text"></i><span>Pemeriksaan Pasien</span>
                 </a>
             </li>
             {{-- Riwayat Pemeriksaan Pasien Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/riwayatpasien">
-                    <i class="bi bi-journal-text"></i><span>Riwayat Pemeriksaan Pasien</span><i
-                        class="bi bi-chevron-down ms-auto"></i>
+                    <i class="bi bi-journal-text"></i><span>Riwayat Pemeriksaan Pasien</span>
                 </a>
             </li>
             <li>
@@ -49,27 +46,25 @@
             {{-- Pembayaran Tagihan Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/pembayaran">
-                    <i class="bi bi-gem"></i><span>Pembayaran Tagihan</span><i class="bi bi-chevron-down ms-auto"></i>
+                    <i class="bi bi-gem"></i><span>Pembayaran Tagihan</span>
                 </a>
             </li>
             {{-- Pembelian Barang Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/pembelian">
-                    <i class="bi bi-gem"></i><span>Pembelian Barang</span><i class="bi bi-chevron-down ms-auto"></i>
+                    <i class="bi bi-gem"></i><span>Pembelian Barang</span>
                 </a>
             </li>
             {{-- Laporan Transaksi Harian Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/laporanharian">
-                    <i class="bi bi-gem"></i><span>Laporan Transaksi Harian</span><i
-                        class="bi bi-chevron-down ms-auto"></i>
+                    <i class="bi bi-gem"></i><span>Laporan Transaksi Harian</span>
                 </a>
             </li>
             {{-- Laporan Transaksi bulanan Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/laporanbulanan">
-                    <i class="bi bi-gem"></i><span>Laporan Transaksi Bulanan</span><i
-                        class="bi bi-chevron-down ms-auto"></i>
+                    <i class="bi bi-gem"></i><span>Laporan Transaksi Bulanan</span>
                 </a>
             </li>
             <li>
