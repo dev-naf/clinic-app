@@ -110,7 +110,7 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="index.html">
-          <i class="fa-solid fa-house"></i>
+          <i class="fa fa-home" aria-hidden="true"></i>
           <span>Dashboard</span>
         </a>
       </li>
