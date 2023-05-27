@@ -1,6 +1,5 @@
 @extends('layouts.main')
 
 @section('content')
-    <h1>Dashboard</h1>
-
+    <h1>Riwayat Pasien Page</h1>
 @endsection

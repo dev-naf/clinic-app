@@ -18,12 +18,47 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+// Route::get('/', function () {
+//     return view('index');
+// });
+
+Route::get('/login',[LoginController::class,'index']);
+
+// TEMP
+// Route::get('/category', function () {
+//     return view('category');
+// });
+
 Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/login',[LoginController::class,'index']);
 
-Route::get('/category', function () {
-    return view('category');
+//  =====  build purpose only !!, not production ! ====
+Route::get('/barang', function () {
+    return view('pages.barang.index');
 });
+// === PASIEN UI ===
+Route::get('/datapasien', function () {
+    return view('pages.pasien.index');
+});
+Route::get('/periksapasien', function () {
+    return view('pages.pemeriksaan.index');
+});
+Route::get('/riwayatpasien', function () {
+    return view('pages.riwayat-pasien.index');
+});
+// ==== TAGIHAN UI ===
+Route::get('/pembayaran', function () {
+    return view('pages.pembayaran.index');
+});
+Route::get('/pembelian', function () {
+    return view('pages.pembelian.index');
+});
+Route::get('/laporanharian', function () {
+    return view('pages.laporan-harian.index');
+});
+Route::get('/laporanbulanan', function () {
+    return view('pages.laporan-bulanan.index');
+});
+
