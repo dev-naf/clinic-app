@@ -14,7 +14,7 @@
             {{-- Data Barang Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/barang">
-                    <i class="bi bi-menu-button-wide"></i><span>Data Barang</span>
+                    <i class="fa fa-shop"></i><span>Data Barang</span>
                 </a>
             </li>
             <li>
@@ -24,19 +24,19 @@
             {{-- Data Pasien Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/datapasien">
-                    <i class="bi bi-journal-text"></i><span>Data Pasien</span>
+                    <i class="fa fa-address-card"></i><span>Data Pasien</span>
                 </a>
             </li>
             {{-- Diagnosis Pasien Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/periksapasien">
-                    <i class="bi bi-journal-text"></i><span>Pemeriksaan Pasien</span>
+                    <i class="fa fa-stethoscope"></i><span>Pemeriksaan Pasien</span>
                 </a>
             </li>
             {{-- Riwayat Pemeriksaan Pasien Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/riwayatpasien">
-                    <i class="bi bi-journal-text"></i><span>Riwayat Pemeriksaan Pasien</span>
+                    {{-- <i class="bi bi-journal-text"></i>--}}<i class="fa-solid fa-file-medical"></i><span>Riwayat Pemeriksaan Pasien</span>
                 </a>
             </li>
             <li>
@@ -52,19 +52,19 @@
             {{-- Pembelian Barang Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/pembelian">
-                    <i class="bi bi-gem"></i><span>Pembelian Barang</span>
+                    {{-- <i class="bi bi-gem"></i>--}}<i class="fa-solid fa-cash-register"></i><span>Pembelian Barang</span>
                 </a>
             </li>
             {{-- Laporan Transaksi Harian Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/laporanharian">
-                    <i class="bi bi-gem"></i><span>Laporan Transaksi Harian</span>
+                    <i class="fa fa-file-invoice"></i><span>Laporan Transaksi Harian</span>
                 </a>
             </li>
             {{-- Laporan Transaksi bulanan Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/laporanbulanan">
-                    <i class="bi bi-gem"></i><span>Laporan Transaksi Bulanan</span>
+                    <i class="fa fa-file-invoice-dollar"></i><span>Laporan Transaksi Bulanan</span>
                 </a>
             </li>
             <li>
