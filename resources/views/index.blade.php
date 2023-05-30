@@ -16,16 +16,16 @@
         </div>
     </div>
     <section class="content">
-        <div class="container-fluid">
+        {{-- <div class="container-fluid"> --}}
             <!-- Small boxes (Stat box) -->
-            <div class="row border">
+            <div class="row">
               {{-- Blue --}}
               <div class="col-lg-3">
                 <!-- small box -->
                 <div class="small-box bg-success">
                     <div class="inner">
                         <h3>53</h3>
-                        <p>Bounce Rate</p>
+                        <p>Jumlah Barang</p>
                     </div>
                     <div class="icon">
                         <i class="ion ion-stats-bars"></i>
