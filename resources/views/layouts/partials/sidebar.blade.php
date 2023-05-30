@@ -1,9 +1,7 @@
 <nav id="sidebarMenu" class="col-md-3 mt-0 col-lg-2 col-xl-2 d-md-block  sidebar collapse sidebar-custom">
     <div class="position-sticky pt-2 sidebar-sticky ">
         <ul class="sidebar-nav" id="sidebar-nav">
-            <li>
-                <hr class="dropdown-divider">
-            </li>
+
             {{-- Dashboard Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/">
@@ -14,7 +12,7 @@
             {{-- Data Barang Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/barang">
-                    <i class="fa fa-shop"></i><span>Data Barang</span>
+                    <i class="fa-reguler fa-shop"></i><span>Data Barang</span>
                 </a>
             </li>
             <li>
@@ -36,7 +34,7 @@
             {{-- Riwayat Pemeriksaan Pasien Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/riwayatpasien">
-                    {{-- <i class="bi bi-journal-text"></i>--}}<i class="fa-solid fa-file-medical"></i><span>Riwayat Pemeriksaan Pasien</span>
+                    {{-- <i class="bi bi-journal-text"></i>--}}<i class="fa fa-file-medical"></i><span>Riwayat Pemeriksaan Pasien</span>
                 </a>
             </li>
             <li>

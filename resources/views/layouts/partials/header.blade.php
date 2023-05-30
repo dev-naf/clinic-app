@@ -6,6 +6,7 @@
         </a>
 
         <i class="bi bi-list toggle-sidebar-btn"></i>
+        
     </div>
 
     {{-- Search Bar --}}
@@ -21,7 +22,7 @@
             {{-- Search Icon --}}
             <li class="nav-item d-block d-lg-none">
                 <a class="nav-link nav-icon search-bar-toggle " href="#">
-                    <i class="fa-regular fa-magnifying-glass"></i>
+                    <i class="fa fa-magnifying-glass"></i>
                 </a>
             </li>
 

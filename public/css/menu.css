@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "poppins", poppins;
   background: #f6f9ff;
   color: #444444;
 }
@@ -312,8 +312,8 @@ h6 {
 }
 
 .sidebar-nav .nav-link.collapsed i {
-  /* color: #899bbd; */
-  color: #EBBAB9;
+  color: #2E4057;
+  /* color: #EBBAB9; */
 }
 
 .sidebar-nav .nav-link:hover {
