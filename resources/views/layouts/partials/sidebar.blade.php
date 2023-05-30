@@ -34,7 +34,7 @@
             {{-- Riwayat Pemeriksaan Pasien Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/riwayatpasien">
-                    {{-- <i class="bi bi-journal-text"></i>--}}<i class="fa fa-file-medical"></i><span>Riwayat Pemeriksaan Pasien</span>
+                    <i class="bi bi-file-earmark-medical"></i><span>Riwayat Pemeriksaan Pasien</span>
                 </a>
             </li>
             <li>
