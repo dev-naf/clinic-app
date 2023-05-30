@@ -6,10 +6,10 @@
     <div class="content-wrapper">
         <div class="content-header">
             <div class="container-fluid">
-                <div class="row mb-2">
+                <div class="row mt-5">
                     <div>
-                        <h1>Dashboard</h1>
-                        <span id="date_time"></span>
+                        <h1 class="mb-2">Dashboard</h1>
+                        <span id="date_time" ></span>
                     </div>
                 </div>
             </div>
@@ -18,7 +18,7 @@
     <section class="content">
         {{-- <div class="container-fluid"> --}}
             <!-- Small boxes (Stat box) -->
-            <div class="row">
+            <div class="row p-3 mt-5">
               {{-- Blue --}}
               <div class="col-lg-3">
                 <!-- small box -->
