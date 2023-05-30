@@ -44,25 +44,25 @@
             {{-- Pembayaran Tagihan Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/pembayaran">
-                    <i class="bi bi-gem"></i><span>Pembayaran Tagihan</span>
+                    <i class="bi bi-receipt"></i><span>Pembayaran Tagihan Pasien</span>
                 </a>
             </li>
             {{-- Pembelian Barang Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/pembelian">
-                    {{-- <i class="bi bi-gem"></i>--}}<i class="fa-solid fa-cash-register"></i><span>Pembelian Barang</span>
+                    <i class="bi bi-basket"></i><span>Pembelian Barang</span>
                 </a>
             </li>
             {{-- Laporan Transaksi Harian Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/laporanharian">
-                    <i class="fa fa-file-invoice"></i><span>Laporan Transaksi Harian</span>
+                    <i class="bi bi-clipboard-data"></i><span>Laporan Transaksi Harian</span>
                 </a>
             </li>
             {{-- Laporan Transaksi bulanan Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/laporanbulanan">
-                    <i class="fa fa-file-invoice-dollar"></i><span>Laporan Transaksi Bulanan</span>
+                    <i class="bi bi-journal-bookmark"></i><span>Laporan Transaksi Bulanan</span>
                 </a>
             </li>
             <li>
