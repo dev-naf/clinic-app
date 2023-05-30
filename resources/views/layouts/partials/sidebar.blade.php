@@ -12,7 +12,7 @@
             {{-- Data Barang Link --}}
             <li class="nav-item">
                 <a class="nav-link collapsed"  href="/barang">
-                    <i class="fa-reguler fa-shop"></i><span>Data Barang</span>
+                    <i class="bi bi-shop"></i><span>Data Barang</span>
                 </a>
             </li>
             <li>
