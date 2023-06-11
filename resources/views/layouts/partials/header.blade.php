@@ -6,25 +6,13 @@
         </a>
 
         <i class="bi bi-list toggle-sidebar-btn"></i>
-        
+       
     </div>
 
-    {{-- Search Bar --}}
-    <div class="search-bar">
-        <form class="search-form d-flex align-items-center" method="POST" action="#">
-            <input type="text" name="query" placeholder="Search" title="Enter search keyword">
-            <button type="submit" title="Search"><i class="fa-regular fa-magnifying-glass"></i></button>
-        </form>
-    </div>
+    <span id="date_time" ></span>
 
     <nav class="header-nav ms-auto">
         <ul class="d-flex align-items-center">
-            {{-- Search Icon --}}
-            <li class="nav-item d-block d-lg-none">
-                <a class="nav-link nav-icon search-bar-toggle " href="#">
-                    <i class="fa fa-magnifying-glass"></i>
-                </a>
-            </li>
 
             {{-- Profil --}}
             <li class="nav-item dropdown pe-3">
@@ -75,4 +63,10 @@
 
         </ul>
     </nav>
+
+    <script type="text/javascript" src="js/dashboard.js"></script>
+    <script type="text/javascript">
+        window.onload = date_time('date_time');
+    </script>
+
 </header>

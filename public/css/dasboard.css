@@ -17,7 +17,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -34,12 +34,6 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  color: #2E4057;
 }
 
 p {
@@ -137,48 +131,6 @@ a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
-/* .content-header {
-    padding: 15px 0.5rem;
-  }
-
-  .text-sm .content-header {
-    padding: 10px 0.5rem;
-  }
-  
-  .content-header h1 {
-    font-size: 1.8rem;
-    margin: 0;
-  }
-  
-  .text-sm .content-header h1 {
-    font-size: 1.5rem;
-  }
-  
-  .content-header .breadcrumb {
-    background-color: transparent;
-    line-height: 1.8rem;
-    margin-bottom: 0;
-    padding: 0;
-  }
-  
-  .text-sm .content-header .breadcrumb {
-    line-height: 1.5rem;
-  }
-
-  html,
-body,
-.wrapper {
-  min-height: 100%;
-}
-
-.wrapper {
-  position: relative;
-}
-
-.wrapper .content-wrapper {
-  min-height: calc(100vh - calc(3.5rem + 1px) - calc(3.5rem + 1px));
-} */
-
 .layout-boxed .wrapper {
   box-shadow: 0 0 10 rgba(0, 0, 0, 0.3);
 }
@@ -267,115 +219,6 @@ body,
     padding: .75rem;
   }
 
-  .row-cols-2 > * {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-  
-  .row-cols-3 > * {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-  
-  .row-cols-4 > * {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
-  
-  .row-cols-5 > * {
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
-  }
-  
-  .row-cols-6 > * {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
-  }
-  
-  .col-auto {
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: auto;
-    max-width: 100%;
-  }
-  
-  .col-1 {
-    -ms-flex: 0 0 8.333333%;
-    flex: 0 0 8.333333%;
-    max-width: 8.333333%;
-  }
-  
-  .col-2 {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
-  }
-  
-  .col-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
-  
-  .col-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-  
-  .col-5 {
-    -ms-flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
-    max-width: 41.666667%;
-  }
-  
-  .col-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-  
-  .col-7 {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
-  }
-  
-  .col-8 {
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
-  }
-  
-  .col-9 {
-    -ms-flex: 0 0 75%;
-    flex: 0 0 75%;
-    max-width: 75%;
-  }
-  
-  .col-10 {
-    -ms-flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
-  }
-  
-  .col-11 {
-    -ms-flex: 0 0 91.666667%;
-    flex: 0 0 91.666667%;
-    max-width: 91.666667%;
-  }
-  
-  .col-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
   .small-box {
     border-radius: 0.25rem;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -383,9 +226,10 @@ body,
     margin-bottom: 20px;
     position: relative;
   }
-  
+
   .small-box > .inner {
     padding: 10px;
+    color: #ffffe8;
   }
   
   .small-box > .small-box-footer {
@@ -411,32 +255,6 @@ body,
     padding: 0;
     white-space: nowrap;
   }
-  
-  /* @media (min-width: 992px) {
-    .col-xl-2 .small-box h3,
-    .col-lg-2 .small-box h3,
-    .col-md-2 .small-box h3 {
-      font-size: 1.6rem;
-    }
-    .col-xl-3 .small-box h3,
-    .col-lg-3 .small-box h3,
-    .col-md-3 .small-box h3 {
-      font-size: 1.6rem;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .col-xl-2 .small-box h3,
-    .col-lg-2 .small-box h3,
-    .col-md-2 .small-box h3 {
-      font-size: 2.2rem;
-    }
-    .col-xl-3 .small-box h3,
-    .col-lg-3 .small-box h3,
-    .col-md-3 .small-box h3 {
-      font-size: 2.2rem;
-    }
-  } */
   
   .small-box p {
     font-size: 1rem;
@@ -564,100 +382,6 @@ body,
     overflow: hidden;
   }
   
-  .info-box .info-box-number {
-    display: block;
-    margin-top: .25rem;
-    font-weight: 700;
-  }
-  
-  .info-box .progress-description,
-  .info-box .info-box-text {
-    display: block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  
-  .info-box .info-box .bg-primary,
-  .info-box .info-box .bg-gradient-primary {
-    color: #fff;
-  }
-  
-  .info-box .info-box .bg-primary .progress-bar,
-  .info-box .info-box .bg-gradient-primary .progress-bar {
-    background-color: #fff;
-  }
-  
-  .info-box .info-box .bg-secondary,
-  .info-box .info-box .bg-gradient-secondary {
-    color: #fff;
-  }
-  
-  .info-box .info-box .bg-secondary .progress-bar,
-  .info-box .info-box .bg-gradient-secondary .progress-bar {
-    background-color: #fff;
-  }
-  
-  .info-box .info-box .bg-success,
-  .info-box .info-box .bg-gradient-success {
-    color: #fff;
-  }
-  
-  .info-box .info-box .bg-success .progress-bar,
-  .info-box .info-box .bg-gradient-success .progress-bar {
-    background-color: #fff;
-  }
-  
-  .info-box .info-box .bg-info,
-  .info-box .info-box .bg-gradient-info {
-    color: #fff;
-  }
-  
-  .info-box .info-box .bg-info .progress-bar,
-  .info-box .info-box .bg-gradient-info .progress-bar {
-    background-color: #fff;
-  }
-  
-  .info-box .info-box .bg-warning,
-  .info-box .info-box .bg-gradient-warning {
-    color: #1f2d3d;
-  }
-  
-  .info-box .info-box .bg-warning .progress-bar,
-  .info-box .info-box .bg-gradient-warning .progress-bar {
-    background-color: #1f2d3d;
-  }
-  
-  .info-box .info-box .bg-danger,
-  .info-box .info-box .bg-gradient-danger {
-    color: #fff;
-  }
-  
-  .info-box .info-box .bg-danger .progress-bar,
-  .info-box .info-box .bg-gradient-danger .progress-bar {
-    background-color: #fff;
-  }
-  
-  .info-box .info-box .bg-light,
-  .info-box .info-box .bg-gradient-light {
-    color: #1f2d3d;
-  }
-  
-  .info-box .info-box .bg-light .progress-bar,
-  .info-box .info-box .bg-gradient-light .progress-bar {
-    background-color: #1f2d3d;
-  }
-  
-  .info-box .info-box .bg-dark,
-  .info-box .info-box .bg-gradient-dark {
-    color: #fff;
-  }
-  
-  .info-box .info-box .bg-dark .progress-bar,
-  .info-box .info-box .bg-gradient-dark .progress-bar {
-    background-color: #fff;
-  }
-  
   .info-box .info-box-more {
     display: block;
   }
@@ -665,49 +389,6 @@ body,
   .info-box .progress-description {
     margin: 0;
   }
-  
-  /* @media (min-width: 768px) {
-    .col-xl-2 .info-box .progress-description,
-    .col-lg-2 .info-box .progress-description,
-    .col-md-2 .info-box .progress-description {
-      display: none;
-    }
-    .col-xl-3 .info-box .progress-description,
-    .col-lg-3 .info-box .progress-description,
-    .col-md-3 .info-box .progress-description {
-      display: none;
-    }
-  } */
-  
-  /* @media (min-width: 992px) {
-    .col-xl-2 .info-box .progress-description,
-    .col-lg-2 .info-box .progress-description,
-    .col-md-2 .info-box .progress-description {
-      font-size: 0.75rem;
-      display: block;
-    }
-    .col-xl-3 .info-box .progress-description,
-    .col-lg-3 .info-box .progress-description,
-    .col-md-3 .info-box .progress-description {
-      font-size: 0.75rem;
-      display: block;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .col-xl-2 .info-box .progress-description,
-    .col-lg-2 .info-box .progress-description,
-    .col-md-2 .info-box .progress-description {
-      font-size: 1rem;
-      display: block;
-    }
-    .col-xl-3 .info-box .progress-description,
-    .col-lg-3 .info-box .progress-description,
-    .col-md-3 .info-box .progress-description {
-      font-size: 1rem;
-      display: block;
-    }
-  } */
 
   .timeline {
     margin: 0 0 45px;
@@ -911,7 +592,8 @@ body,
   }
   
   .form-group.has-icon .form-icon {
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: #ffffe8;
     border: 0;
     cursor: pointer;
     font-size: 1rem;

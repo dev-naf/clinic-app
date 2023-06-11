@@ -8,8 +8,7 @@
             <div class="container-fluid">
                 <div class="row mt-5">
                     <div>
-                        <h1 class="mb-2">Dashboard</h1>
-                        <span id="date_time" ></span>
+                        <h3>Dashboard</h3>
                     </div>
                 </div>
             </div>
@@ -18,19 +17,19 @@
     <section class="content">
         {{-- <div class="container-fluid"> --}}
             <!-- Small boxes (Stat box) -->
-            <div class="row p-3 mt-5">
+            <div class="row p-3 mt-3">
               {{-- Blue --}}
               <div class="col-lg-3">
                 <!-- small box -->
-                <div class="small-box bg-success">
+                <div class="small-box bg-info">
                     <div class="inner">
                         <h3>53</h3>
-                        <p>Jumlah Barang</p>
+                        <p>Stok Barang</p>
                     </div>
                     <div class="icon">
-                        <i class="ion ion-stats-bars"></i>
+                        <i class="bi bi-cart3"></i>
                     </div>
-                    <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    <a href="#" class="small-box-footer">More info <i class="bi bi-arrow-right-circle"></i></a>
                 </div>
             </div>
                 <!-- ./col Green -->
@@ -38,51 +37,43 @@
                     <!-- small box -->
                     <div class="small-box bg-success">
                         <div class="inner">
-                            <h3>53</h3>
-                            <p>Bounce Rate</p>
+                            <h3>50</h3>
+                            <p>Jumlah Pasien</p>
                         </div>
                         <div class="icon">
-                            <i class="ion ion-stats-bars"></i>
+                           <i class="bi bi-people"></i>
                         </div>
-                        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                        <a href="#" class="small-box-footer">More info <i class="bi bi-arrow-right-circle"></i></a>
                     </div>
                 </div>
                 <!-- ./col Yellow -->
                 <div class="col-lg-3">
                     <!-- small box -->
-                    <div class="small-box bg-warning">
+                    <div class="small-box bg-secondary">
                         <div class="inner">
                             <h3>44</h3>
-
-                            <p>User Registrations</p>
+                            <p>Laporan Transaksi Harian</p>
                         </div>
                         <div class="icon">
-                            <i class="ion ion-person-add"></i>
+                            <i class="bi bi-bar-chart-line"></i>
                         </div>
-                        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                        <a href="#" class="small-box-footer">More info <i class="bi bi-arrow-right-circle"></i></a>
                     </div>
                 </div>
                 <!-- ./col red -->
                 <div class="col-lg-3">
                     <!-- small box -->
-                    <div class="small-box bg-danger">
+                    <div class="small-box bg-warning">
                         <div class="inner">
                             <h3>65</h3>
-
-                            <p>Unique Visitors</p>
+                            <p>Laporan Transaksi Bulanan</p>
                         </div>
                         <div class="icon">
-                            <i class="ion ion-pie-graph"></i>
+                            <i class="bi bi-graph-up"></i>
                         </div>
-                        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                        <a href="#" class="small-box-footer">More info <i class="bi bi-arrow-right-circle"></i></a>
                     </div>
                 </div>
                 <!-- ./col -->
             </div>
-
-
-            <script type="text/javascript" src="js/dashboard.js"></script>
-            <script type="text/javascript">
-                window.onload = date_time('date_time');
-            </script>
-        @endsection
+ @endsection
