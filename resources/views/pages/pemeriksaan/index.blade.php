@@ -11,7 +11,6 @@
         </div>
     </div>
 
-    {{-- dibuat kotakan, isinya kolom pencarian id pasien, posisi ditengah, kalau mau tambah ccs di fitur.css --}}
     <div class="container">
         <main class="row">
             <form action="#" method="GET" class="mt-5">
@@ -24,7 +23,7 @@
                 </div>
             </form>
         </main>
-
-
     </div>
+
+    
 @endsection
