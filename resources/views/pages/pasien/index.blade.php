@@ -47,7 +47,7 @@
           </div>
           <div class="col-12">
             <label for="inputLahir" class="form-label">Tanggal Lahir</label>
-            <input type="datetime" class="form-control" id="inputLahir">
+            <input type="date" class="form-control" id="inputLahir">
           </div>
           <div class="col-12">
             <label for="inputHp" class="form-label">No Telephone</label>
