@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string("nama_pasien");
             $table->string("tempat_lahir");
             $table->date("tanggal_lahir");
+            $table->string("alamat");
             $table->timestamps();
         });
     }

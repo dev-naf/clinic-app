@@ -12,16 +12,57 @@
     </div>
 </div>
 
-{{-- <div class="header-nav">
-    <form class="nav justify-content-end">
-        <button  class="addButton">Tambah</button>
-    </form>
-</div> --}}
 
-<div class="nav mb-3">
-  <button class="addButton">Tambah</button>
-  <div class="nav justify-content-end">
-    <label><input type="search" class="form-control form-control-sm" placeholder="Pencarian" name="c"></label>
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="addButton" data-bs-toggle="modal" data-bs-target="#verticalycentered">Tambah</button>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-info btn-sm" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+{{-- Modal Tambah --}}
+<div class="modal fade" id="verticalycentered" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Tambah Data Pasien</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-3">
+          <div class="col-12">
+            <label for="inputId" class="form-label">ID Pasien</label>
+            <input type="text" class="form-control" id="inputID">
+          </div>
+          <div class="col-12">
+            <label for="inputPasien" class="form-label">Nama Pasien</label>
+            <input type="text" class="form-control" id="inputPasien">
+          </div>
+          <div class="col-12">
+            <label for="inputTempat" class="form-label">Tempat Lahir</label>
+            <input type="text" class="form-control" id="inputTempat">
+          </div>
+          <div class="col-12">
+            <label for="inputLahir" class="form-label">Tanggal Lahir</label>
+            <input type="datetime" class="form-control" id="inputLahir">
+          </div>
+          <div class="col-12">
+            <label for="inputHp" class="form-label">No Telephone</label>
+            <input type="text" class="form-control" id="inputHp">
+          </div>
+          <div class="col-12">
+            <label for="inputAlamat" class="form-label">Nama Alamat</label>
+            <input type="text" class="form-control" id="inputAlamat">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary">Save</button>
+      </div>
+    </div>
   </div>
 </div>
 

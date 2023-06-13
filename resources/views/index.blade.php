@@ -43,7 +43,7 @@
                         <div class="icon">
                            <i class="bi bi-people"></i>
                         </div>
-                        <a href="#" class="small-box-footer">More info <i class="bi bi-arrow-right-circle"></i></a>
+                        <a href="pages/barang/index.blade.php" class="small-box-footer">More info <i class="bi bi-arrow-right-circle"></i></a>
                     </div>
                 </div>
                 <!-- ./col Yellow -->

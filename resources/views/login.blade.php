@@ -28,7 +28,7 @@
         <label for="password">Password</label>
         <input type="password" placeholder="Password" id="password">
 
-        <button>Log In</button>
+        <a href="layout/index.blade.php"><button>Log In</button></a>
 
     </form>
 

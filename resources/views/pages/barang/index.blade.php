@@ -13,16 +13,48 @@
     </div>
 </div>
 
-{{-- <div class="header-nav">
-    <form class="nav justify-content-end">
-        <button  class="addButton">Tambah</button>
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="addButton" data-bs-toggle="modal" data-bs-target="#verticalycentered">Tambah</button>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-info btn-sm" type="submit">Search</button>
     </form>
-</div> --}}
+  </div>
+</nav>
 
-<div class="nav mb-3">
-  <button class="addButton">Tambah</button>
-  <div class="nav justify-content-end">
-    <label><input type="search" class="form-control form-control-sm" placeholder="Pencarian" name="c"></label>
+{{-- Modal Tambah --}}
+<div class="modal fade" id="verticalycentered" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Tambah Data Barang</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-3">
+          <div class="col-12">
+            <label for="inputId" class="form-label">ID Barang</label>
+            <input type="text" class="form-control" id="inputID">
+          </div>
+          <div class="col-12">
+            <label for="inputBarang" class="form-label">Nama Barang</label>
+            <input type="text" class="form-control" id="inputBarang">
+          </div>
+          <div class="col-12">
+            <label for="inputHarga" class="form-label">Harga Satuan</label>
+            <input type="number" class="form-control" id="inputHarga">
+          </div>
+          <div class="col-12">
+            <label for="inputJumlah" class="form-label">Jumlah</label>
+            <input type="number" class="form-control" id="inputJumlah" placeholder="1234">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary">Save</button>
+      </div>
+    </div>
   </div>
 </div>
 

@@ -14,14 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-// Route::get('/', function () {
-//     return view('index');
-// });
-
 Route::get('/login',[LoginController::class,'index']);
 
 // TEMP
@@ -33,11 +25,11 @@ Route::get('/', function () {
     return view('index');
 });
 
-
 //  =====  build purpose only !!, not production ! ====
 Route::get('/barang', function () {
     return view('pages.barang.index');
 });
+
 // === PASIEN UI ===
 Route::get('/datapasien', function () {
     return view('pages.pasien.index');
