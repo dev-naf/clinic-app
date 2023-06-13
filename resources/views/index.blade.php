@@ -29,7 +29,7 @@
                     <div class="icon">
                         <i class="bi bi-cart3"></i>
                     </div>
-                    <a href="#" class="small-box-footer">More info <i class="bi bi-arrow-right-circle"></i></a>
+                    <a href="/barang" class="small-box-footer">More info <i class="bi bi-arrow-right-circle"></i></a>
                 </div>
             </div>
                 <!-- ./col Green -->
@@ -43,7 +43,7 @@
                         <div class="icon">
                            <i class="bi bi-people"></i>
                         </div>
-                        <a href="pages/barang/index.blade.php" class="small-box-footer">More info <i class="bi bi-arrow-right-circle"></i></a>
+                        <a href="/datapasien" class="small-box-footer">More info <i class="bi bi-arrow-right-circle"></i></a>
                     </div>
                 </div>
                 <!-- ./col Yellow -->
@@ -57,7 +57,7 @@
                         <div class="icon">
                             <i class="bi bi-bar-chart-line"></i>
                         </div>
-                        <a href="#" class="small-box-footer">More info <i class="bi bi-arrow-right-circle"></i></a>
+                        <a href="/laporanharian" class="small-box-footer">More info <i class="bi bi-arrow-right-circle"></i></a>
                     </div>
                 </div>
                 <!-- ./col red -->
@@ -71,7 +71,7 @@
                         <div class="icon">
                             <i class="bi bi-graph-up"></i>
                         </div>
-                        <a href="#" class="small-box-footer">More info <i class="bi bi-arrow-right-circle"></i></a>
+                        <a href="/laporanbulanan" class="small-box-footer">More info <i class="bi bi-arrow-right-circle"></i></a>
                     </div>
                 </div>
                 <!-- ./col -->
