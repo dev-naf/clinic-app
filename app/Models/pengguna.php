@@ -3,15 +3,23 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
 
-class pengguna extends Model
+use Illuminate\Notifications\Notifiable;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+class pengguna extends Authenticatable
 {
+    // nama table
     protected $table = "pengguna";
     use HasFactory;
     // mass asignment exception
     protected $guarded = ["id"]; 
     // protected $fillable = ["id"];
-    // nama table
-    
+    use Notifiable;
+    protected $hidden = [
+        'password', 'remember_token',
+    ];
+
+    protected $casts = [
+        'email_verified_at' => 'datetime',
+    ];
 }

@@ -14,12 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// --  basic login controller | login, autentikasi  
 Route::get('/login',[LoginController::class,'index']);
-
-// TEMP
-// Route::get('/category', function () {
-//     return view('category');
-// });
+Route::post('/login',[LoginController::class,'autheticate']);
 
 Route::get('/', function () {
     return view('index');
