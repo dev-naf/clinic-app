@@ -19,6 +19,12 @@
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
+    @if (session()->has('error'))
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>Login Gagal</strong> Silahkan coba lagi !
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    @endif
     <form method="POST" action="/login">
         @csrf
         <h3>Login Here</h3>

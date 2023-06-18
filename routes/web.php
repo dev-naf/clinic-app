@@ -15,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 // --  basic login controller | login, autentikasi  
-Route::get('/login',[LoginController::class,'index']);
-Route::post('/login',[LoginController::class,'autheticate']);
+Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
+Route::post('/login', [LoginController::class, 'autheticate']);
 
 Route::get('/', function () {
     return view('index');
@@ -50,4 +50,3 @@ Route::get('/laporanharian', function () {
 Route::get('/laporanbulanan', function () {
     return view('pages.laporan-bulanan.index');
 });
-

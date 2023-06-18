@@ -25,12 +25,12 @@ class LoginController extends Controller
         ]);
         //-- proses otentikasi --
         if(Auth::attempt($validasi)){
-            $request->session();
+            $request->session()->regenerate();
             return redirect()->intended('/');
         }
 
         // -- menampilkan dashboard, apabila ter-otentikasi --
-        //return back()->with('error', 'Login gagal');
-        return "Wrong pass";
+        return back()->with('error', 'Login gagal');
+        // return "Wrong pass";
     }
 }
